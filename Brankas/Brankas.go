@@ -4,7 +4,7 @@ package main
 import "fmt"
 
 func main() {
-	const pin = "0625"
+	const pin = "060125"
 	var inputPin string
 
 	fmt.Println("Selamat datang di Brankas Sigma!")
@@ -45,5 +45,5 @@ func main() {
 		}
 	}
 
-	fmt.Println("Akses Ditolak. Anda Telah Kehabisan Percobaan.")
+	fmt.Println("Akses Ditolak. Anda Telah Kehabisan Masa Percobaan.")
 }
